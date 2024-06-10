@@ -1,0 +1,206 @@
+@import url('https://fonts.cdnfonts.com/css/agustina');
+@import url('https://fonts.cdnfonts.com/css/dancing-script');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(-225deg, #321575 0%, #8c0f93 50%, #ec0b78 100%);;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    text-align: left;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Cursive', sans-serif;
+}
+.nav-item{
+    font-size: 23px;
+    margin-right: 100px;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+#typed{
+    font-family: 'Agustina', sans-serif;
+    font-size: 50px;
+}
+section {
+    transition: all 0.5s ease-in-out;
+}
+.about-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-light {
+    background-color: white;
+    color: #6a0dad;
+    border: none;
+    margin-top: 100px;
+    margin-left: 42%;
+    padding: 20px 25px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.container{
+    margin-top: 50px;
+}
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+    font-family: 'Dancing Script';
+
+}
+.container p{
+    text-align: justify;
+    font-size: 25px;
+}
+#things-i-love .card {
+    border: none;
+    border-radius: 50px;
+}
+
+#things-i-love .icon img {
+    width: 50px;
+    height: 50px;
+    background: white;
+
+}
+
+#things-i-love .card-body {
+    padding: 2rem;
+}
+
+.bg-raro{
+    background: rgb(218, 10, 111);
+background: linear-gradient(0deg, rgb(169, 10, 87) 0%, rgb(96, 5, 119) 100%);
+
+}
+.love{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.card-body p{
+    font-size: 20px;
+}
+#skills .card-title {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+.skills{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+#skills .card{
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.section-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+#projects .card{
+    border: none;
+    border-radius: 40px;
+}
+.section-title{
+    margin-top : 150px;
+}
+
+#contact {
+    background: rgb(218, 10, 111);
+    background: linear-gradient(0deg, rgb(169, 10, 87) 0%, rgb(96, 5, 119) 100%);
+    padding: 3em 1em;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+#contact input,
+#contact textarea {
+    background: white;
+    border: 1px solid #333;
+    padding: 0.8em ;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#contact button {
+    background: rgb(96, 5, 119);
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button i {
+    margin-left: 0.5em;
+}
+footer {
+    background: rgb(218, 10, 111);
+    background: linear-gradient(0deg, rgb(169, 10, 87) 0%, rgb(96, 5, 119) 100%);
+    padding: 2em 1em;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+
+footer ul li {
+    margin: 0 1em;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+[data-aos] {
+    transition-property: opacity, transform;
+}
